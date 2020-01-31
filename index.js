@@ -1,3 +1,4 @@
+/* Bernard Williams */
 const request = require('request-promise');
 const cheerio = require('cheerio');
 const url = "https://daytona.craigslist.org/search/jjj"
@@ -13,5 +14,5 @@ async function scrapeCragslist() {
         console.error(err);
     }
 }
-
+/* Here are some new comments*/
 scrapeCragslist();
